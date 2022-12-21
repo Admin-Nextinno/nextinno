@@ -1,0 +1,25 @@
+.service-contents{
+    height: 406px;
+    width: 100vw;
+}
+
+.service-singles{
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.service-single-cont{
+    width: 35%;
+    background-COLOR: #e7e7f1;
+    transition: background-color .2s;
+    text-decoration: none;
+    display: block;
+    /* width: 100%; */
+    padding: 24px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    height: 70px;
+    background-color: red;
+}
