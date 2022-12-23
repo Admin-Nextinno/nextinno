@@ -24,12 +24,12 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="hero__info-row" data-v-1912c734>
-                            <div className="hero__col-btn" data-v-1912c734><button className="app-btn app-btn--variant_primary"
+                            <a href='mailto:nextinno.2020@gmail.com' className="hero__col-btn" data-v-1912c734><button className="app-btn app-btn--variant_primary"
                                 data-v-1912c734 data-v-60ac0bf2>
                                 <div className="app-btn__content" data-v-60ac0bf2>
                                     Book a call
                                 </div>
-                            </button></div>
+                            </button></a>
                             {/* <div className="hero-reviews" data-v-1912c734>
                                 <div className="hero__col-clutch" data-v-1912c734><a href="https://clutch.co/profile/enkonix"
                                     target="_blank" className="clutch-link" data-v-1912c734><img src="../../36h.svg"

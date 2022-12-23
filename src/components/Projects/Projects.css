@@ -10,7 +10,8 @@
 
 .portfolio .container[data-v-bbf9a11a] {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 @media screen and (max-width: 1440px){
 .container {
@@ -180,3 +181,8 @@
     color: #1A2055;
     font-size: 18px;
 }
+
+@media screen and (max-width: 768px){
+    .portfolio__item > p {
+        font-size: 14px;
+    }}

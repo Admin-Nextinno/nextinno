@@ -1,0 +1,47 @@
+.contact[data-v-c68d58bc] {
+    overflow: hidden;
+    padding: 100px 0 70px;
+}
+
+.contact .subtitle[data-v-c68d58bc] {
+    margin: 0 0 40px;
+    font-size: 40px;
+    font-family: NeueHaasUnicaW1G,Arial,serif;
+    color: #042055;
+    width: 100%;
+    max-width: 670px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.contact .subtitle[data-v-c68d58bc] b {
+    font-weight: 800;
+    color: #042055;
+}
+
+.contact__row[data-v-c68d58bc] {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact__col[data-v-c68d58bc] {
+    width: 50%;
+}
+@media screen and (max-width: 1440px){
+.form[data-v-22bd16c1] {
+    padding-right: 135px;
+}}
+
+.form__row[data-v-22bd16c1] {
+    display: flex;
+}
+
+.form__col[data-v-22bd16c1] {
+    flex: 1;
+}
+
+.app-input {
+    position: relative;
+    display: block;
+}

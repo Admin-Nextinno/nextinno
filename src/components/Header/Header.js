@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import mail from '../../mail-white.svg'
+import nextinno from './nextinno.svg'
 
 const Header = () => {
     return (
@@ -36,26 +37,28 @@ const Header = () => {
                 </a></div> */}
             <div className="header__container" data-v-0e1d5628>
                 <div className="container" data-v-0e1d5628>
-                    <div className="header__container-grid" data-v-0e1d5628><a href="index.html" aria-current="page"
+                    <div className="header__container-grid" data-v-0e1d5628><a href="#Home-scroll" aria-current="page"
                         className="header__logo nuxt-link-exact-active nuxt-link-active" data-v-0e1d5628><img
-                            src="index-page/NextinNo.png" alt="Enkonix" width="258" height="144" id="site-logo"
+                            src={nextinno} alt="Enkonix" width="258" height="144" id="site-logo"
                             data-v-0e1d5628 /></a>
                         <nav className="header__navigation" data-v-0e1d5628>
-                            <a href="technologies/index.html"
-                                data-v-0e1d5628>Expertise</a>
-                            <a href="technologies/index.html"
+                            <a href='#Service-scroll'
                                 data-v-0e1d5628>Services</a>
-                            <a href="technologies/index.html"
-                                data-v-0e1d5628>Technologies</a>
-                            <a href="about/index.html" data-v-0e1d5628>About</a> <a
-                                href="careers/index.html" data-v-0e1d5628>Careers</a><span className="header-link blue" data-v-0e1d5628>
+                            <a href='#Expertise-scroll'
+                                data-v-0e1d5628>Expertise</a>
+
+                            <a href='#Projects-scroll'
+                                data-v-0e1d5628>Projects</a>
+                            <a data-v-0e1d5628>About</a> <a
+                                data-v-0e1d5628>Careers</a>
+                            <a href='mailto:nextinno.2020@gmail.com' className="header-link blue" data-v-0e1d5628>
                                 Contact us
                                 <span className="blue__icon" data-v-0e1d5628>
                                     <img src={mail} alt="mail" width="11" height="8"
-                                        data-v-0e1d5628 /></span></span>
+                                        data-v-0e1d5628 /></span></a>
                         </nav>
-                        <div className="menu-btn" data-v-0e1d5628><span data-v-0e1d5628></span><span data-v-0e1d5628></span><span
-                            data-v-0e1d5628></span></div>
+                        {/* <div className="menu-btn" data-v-0e1d5628><span data-v-0e1d5628></span><span data-v-0e1d5628></span><span
+                            data-v-0e1d5628></span></div> */}
                     </div>
                 </div>
             </div>
