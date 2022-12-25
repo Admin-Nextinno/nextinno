@@ -9,6 +9,7 @@ import Expertise from './components/Expertise/Expertise';
 import Section10 from './components/Section10/Section10';
 import Footer from './components/Footer/Footer';
 import whatsa from './whatsapp.png'
+import Section5 from './components/Section5/Section5';
 
 function App() {
   const deviceType = () => {
@@ -66,6 +67,7 @@ function App() {
                 <Projects />
 
               </div>
+              <Section5 />
               <div id='Contact-scroll'>
                 <Section10 />
 
